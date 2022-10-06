@@ -14,3 +14,7 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `user`(`password`, `username`) VALUES ('$2a$10$/8LGnez4LF1gvBVpkAsJl.OrV5KQ1RWMLcmgpG0BI4y0FKpXSQQMm', 'admin')
+
+INSERT INTO `place`(`name`,`visited`)VALUES('Tokyo', '0');
+INSERT INTO `place`(`name`,`visited`)VALUES('Sai Gon', '1');
+INSERT INTO `place`(`name`,`visited`)VALUES('Ha Noi', '0');
